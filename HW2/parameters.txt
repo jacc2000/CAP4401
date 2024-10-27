@@ -1,0 +1,30 @@
+baboon.pgm baboon_roi.png roi 50 50 270
+baboon_roi.png baboon_stretch.pgm hisStretch 0 0 0 50 235
+baboon_roi.png baboon_local_stretch.pgm localHisStretch 0 0 0 50 235
+baboon_roi.png baboon_roi_90.pgm rotate_G90
+baboon_roi.png baboon_roi_180.pgm rotate_G180
+baboon_roi.png baboon_roi_270.pgm rotate_G270
+baboon_stretch.pgm baboon_stretch_90.pgm rotate_G90
+baboon_stretch.pgm baboon_stretch_180.pgm rotate_G180
+baboon_stretch.pgm baboon_stretch_270.pgm rotate_G270
+baboon_local_stretch.pgm baboon_local_stretch_90.pgm rotate_G90
+baboon_local_stretch.pgm baboon_local_stretch_180.pgm rotate_G180
+baboon_local_stretch.pgm baboon_local_stretch_270.pgm rotate_G270
+baboon.pgm baboon_slid_window.pgm slidingWindow 5 120 180
+baboon_color.png baboon_roi_color.png roi 50 50 270
+baboon_roi_color.png robot_local_color_his_roi_R.ppm hisModification 150 0 0 
+robot_local_color_his_roi_R.ppm robot_local_color_his_roi_R_90.ppm rotate_C90
+robot_local_color_his_roi_R.ppm robot_local_color_his_roi_R_180.ppm rotate_C180
+robot_local_color_his_roi_R.ppm robot_local_color_his_roi_R_270.ppm rotate_C270
+baboon_roi_color.png robot_local_color_his_roi_G.ppm hisModification 0 150 0 
+robot_local_color_his_roi_G.ppm robot_local_color_his_roi_G_90.ppm rotate_C90
+robot_local_color_his_roi_G.ppm robot_local_color_his_roi_G_180.ppm rotate_C180
+robot_local_color_his_roi_G.ppm robot_local_color_his_roi_G_270.ppm rotate_C270
+baboon_roi_color.png robot_local_color_his_roi_B.ppm hisModification 0 0 150 
+robot_local_color_his_roi_B.ppm robot_local_color_his_roi_B_90.ppm rotate_C90
+robot_local_color_his_roi_B.ppm robot_local_color_his_roi_B_180.ppm rotate_C180
+robot_local_color_his_roi_B.ppm robot_local_color_his_roi_B_270.ppm rotate_C270
+baboon_roi_color.png robot_local_color_his_roi_3.ppm hisModification 150 150 150
+robot_local_color_his_roi_3.ppm robot_local_color_his_roi_3_90.ppm rotate_C90
+robot_local_color_his_roi_3.ppm robot_local_color_his_roi_3_180.ppm rotate_C180
+robot_local_color_his_roi_3.ppm robot_local_color_his_roi_3_270.ppm rotate_C270
