@@ -1,0 +1,34 @@
+baboon.pgm baboon_roi.png roi 50 50 270
+baboon_roi.png baboon_roi_his_equal.pgm histequal
+baboon_roi.png baboon_roi_his_equal_t.pgm histequalThresh 100
+baboon_roi_his_equal.pgm baboon_roi_his_equal_90.pgm rotate_G90
+baboon_roi_his_equal.pgm baboon_roi_his_equal_180.pgm rotate_G180
+baboon_roi_his_equal.pgm baboon_roi_his_equal_270.pgm rotate_G270
+baboon_roi.png baboon_roi_his_equal_t1.pgm histequalThresh 60
+baboon_roi_his_equal_t1.pgm baboon_roi_his_equal_t1_90.pgm rotate_G90
+baboon_roi_his_equal_t1.pgm baboon_roi_his_equal_t1_180.pgm rotate_G180
+baboon_roi_his_equal_t1.pgm baboon_roi_his_equal_t1_270.pgm rotate_G270
+baboon_roi.png baboon_roi_his_equal_t2.pgm histequalThresh 160
+baboon_roi_his_equal_t2.pgm baboon_roi_his_equal_t2_90.pgm rotate_G90
+baboon_roi_his_equal_t2.pgm baboon_roi_his_equal_t2_180.pgm rotate_G180
+baboon_roi_his_equal_t2.pgm baboon_roi_his_equal_t2_270.pgm rotate_G270
+qr3.png qr3_detected.png detectQR
+baboon_color.png baboon_roi_color.png roi 50 50 270
+baboon_roi_color.png baboon_roi_c_his_equal_R.ppm hisEqColor 1 0 0
+baboon_roi_color.png baboon_roi_c_his_equal_B.ppm hisEqColor 0 1 0
+baboon_roi_color.png baboon_roi_c_his_equal_G.ppm hisEqColor 0 0 1
+baboon_roi_color.png baboon_roi_c_his_equal_3.ppm hisEqColor 1 1 1
+baboon_roi_color.png baboon_roi_rgb_hsv.ppm convertto_hsv
+baboon_roi_rgb_hsv.ppm baboon_roi_rgb_hsv_his_V_RGB.ppm histequal_V_RGB
+baboon_roi_rgb_hsv.ppm baboon_roi_rgb_hsv_his_H.ppm histequal_H
+baboon_roi_rgb_hsv.ppm baboon_roi_rgb_hsv_his_S.ppm histequal_S
+baboon_roi_c_his_equal_3.ppm baboon_roi_c_his_equal_3_90.ppm rotate_C90
+baboon_roi_c_his_equal_3.ppm baboon_roi_c_his_equal_3_180.ppm rotate_C180
+baboon_roi_c_his_equal_3.ppm baboon_roi_c_his_equal_3_270.ppm rotate_C270
+baboon_roi.png baboon_roi_his_equal_V.ppm histequal_V
+baboon_roi_his_equal_V.ppm baboon_roi_his_equal_V_90.ppm rotate_C90
+baboon_roi_his_equal_V.ppm baboon_roi_his_equal_V_180.ppm rotate_C180
+baboon_roi_his_equal_V.ppm baboon_roi_his_equal_V_270.ppm rotate_C270
+baboon_roi_rgb_hsv_his_S.ppm baboon_roi_his_equal_S_90.ppm rotate_C90
+baboon_roi_rgb_hsv_his_S.ppm baboon_roi_his_equal_S_180.ppm rotate_C180
+baboon_roi_rgb_hsv_his_S.ppm baboon_roi_his_equal_S_270.ppm rotate_C270
