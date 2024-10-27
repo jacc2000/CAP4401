@@ -1,0 +1,26 @@
+baboon.png image1_output.pgm add 10 10 100 50 0 binarize 120 120 50 100 0 decrease_brightness 330 330 150 50 140
+baboon.png image2_output.pgm add 20 20 150 90 0 add 180 180 100 80 0 binarize 60 60 80 110 0
+baboon.png image3_output.pgm decrease_brightness 15 15 170 100 100 decrease_brightness 200 200 150 100 100 decrease_brightness 100 100 120 100 140
+baboon.png image4_output.pgm binarize 50 50 200 120 0
+baboon.png baboon_og_roi.png roi 50 50 270
+baboon_og_roi.png baboon_output_flipped.pgm flipG
+baboon_output_flipped.pgm baboon_output_flipped_r90.pgm rotateG 90
+baboon_output_flipped.pgm baboon_output_flipped_rn90.pgm rotateG -90
+baboon_og_roi.png baboon_output_scaled.pgm scaleG 1.5
+baboon_output_scaled.pgm baboon_output_scaled_flipped.pgm flipG
+baboon_output_scaled.pgm baboon_output_scaled_r90.pgm rotateG 90
+baboon_output_scaled.pgm baboon_output_scaled_rn90.pgm rotateG -90
+baboon_og_roi.png baboon_output_brightened.pgm brightG 40
+baboon_output_brightened.pgm baboon_output_br_flipped.pgm flipG
+baboon_output_brightened.pgm baboon_output_br_r90.pgm rotateG 90
+baboon_output_brightened.pgm baboon_output_br_rn90.pgm rotateG -90
+baboon_color.png baboon_color.ppm roi 50 50 400
+baboon_color.ppm baboon_color_output_mc.ppm multiplyC 1.9
+baboon_color_output_mc.ppm baboon_color_output_mc_flipped.ppm flipC
+baboon_color_output_mc.ppm baboon_color_output_mc_r90.ppm rotateC 90
+baboon_color_output_mc.ppm baboon_color_output_mc_rn90.ppm rotateC -90
+baboon_color.png baboon_color.ppm roi 70 70 350
+baboon_color.ppm baboon_color_output_ac.ppm addC 100
+baboon_color_output_ac.ppm baboon_color_output_ac_flipped.ppm flipC
+baboon_color_output_ac.ppm baboon_color_output_ac_r90.ppm rotateC 90
+baboon_color_output_ac.ppm baboon_color_output_ac_rn90.ppm rotateC -90
